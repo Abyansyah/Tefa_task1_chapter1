@@ -215,7 +215,7 @@ section {
 }
 /* video style end */
 
-/* team  */
+/* team style start */
 .team {
   background: #f2f2f2;
 }
@@ -300,8 +300,9 @@ section {
     opacity: 1;
   }
 }
+/* video style end */
 
-/* footer */
+/* footer style start */
 .footer{
   display: flex;
   padding: 20px 0;
@@ -309,6 +310,7 @@ section {
 .footer .row{
   font-size: 20px;
 }
+/* video style end */
 
 /* Media query start */
 @media (max-width: 1300px) {
