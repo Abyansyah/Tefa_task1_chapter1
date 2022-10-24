@@ -1,0 +1,77 @@
+/* Universal Styling */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    font-size: 1.6rem;
+  }
+  .max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+  }
+  section {
+    padding: 80px 0;
+  }
+  
+  /* Navbar style start */
+  .navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 15px 0;
+    transition: transparent;
+    background: transparent;
+  }
+  .navbar.sticky {
+    padding: 15px 0;
+    background: #1b1b1b;
+    box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08);
+  }
+  .navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar .logo {
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .navbar .logo a {
+    color: #fff;
+  }
+  .navbar .menu li {
+    list-style: none;
+    display: inline-block;
+  }
+  .navbar .menu li a {
+    color: #f2f2f2;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    margin-left: 25px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+  }
+  .navbar .menu li a.active {
+    color: #111;
+    background: #fff;
+  }
+  .menu-btn {
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+  }
+  /* Navbar style end */
+  
