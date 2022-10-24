@@ -299,3 +299,11 @@
       opacity: 1;
     }
   }
+  /* footer */
+.footer{
+    display: flex;
+    padding: 20px 0;
+  }
+  .footer .row{
+    font-size: 20px;
+  }
