@@ -8,12 +8,6 @@
   list-style: none;
   scroll-behavior: smooth;
 }
-html {
-  font-size: 62.5%;
-}
-body {
-  font-size: 1.6rem;
-}
 .max-width {
   max-width: 1300px;
   padding: 0 80px;
@@ -64,8 +58,8 @@ section {
   transition: all 0.3s ease;
 }
 .navbar .menu li a.active {
-  color: #111;
-  background: #fff;
+  color: #fff ;
+  background: #e43f5a;
 }
 .menu-btn {
   color: #fff;
@@ -217,6 +211,7 @@ section {
 
 /* team style start */
 .team {
+  font-size: 100%;
   background: #f2f2f2;
 }
 .team .heading-h2 {
@@ -272,7 +267,7 @@ section {
 }
 .tab-img {
   margin: 20px 0;
-  width: 28rem;
+  width: 20 rem;
 }
 .tab-heading {
   padding: 2rem 0;
