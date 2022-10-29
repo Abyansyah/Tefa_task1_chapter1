@@ -1,4 +1,7 @@
 $(document).ready(function () {
+  $('ul li a').click(function(){
+    $('li a').removeClass("active");
+    $(this).addClass("active");
     // menu navbar script
     $(window).scroll(function () {
       // sticky navbar on scroll script
@@ -25,4 +28,4 @@ $(document).ready(function () {
     });
     
   });
-  
+});

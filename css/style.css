@@ -42,6 +42,14 @@
     align-items: center;
     justify-content: space-between;
   }
+  .navbar a:hover {
+    background-color: #e43f5a;
+    color: black;
+  }
+  .topnav a.active {
+  background-color: #e43f5a;
+  color: white;
+}
   .navbar .logo {
     font-size: 35px;
     font-weight: 600;
@@ -64,8 +72,8 @@
     transition: all 0.3s ease;
   }
   .navbar .menu li a.active {
-    color: #111;
-    background: #fff;
+    color: #f2f2f2;
+    background: #e43f5a;
   }
   .menu-btn {
     color: #fff;
