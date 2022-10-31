@@ -58,8 +58,8 @@ section {
   transition: all 0.3s ease;
 }
 .navbar .menu li a.active {
-  color: #111;
-  background: #fff;
+  color: #fff;
+  background: #e43f5a;
 }
 .menu-btn {
   color: #fff;
@@ -451,6 +451,10 @@ section {
     display: flex;
     justify-content: center;
     margin: 0 auto 40px;
+  }
+  .tab-content-left img{
+    border-radius: 6px;
+    padding: 0 20px;
   }
   .tab-content-right {
     flex: 100%;
