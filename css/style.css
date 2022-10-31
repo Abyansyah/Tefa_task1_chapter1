@@ -58,8 +58,8 @@ section {
   transition: all 0.3s ease;
 }
 .navbar .menu li a.active {
-  color: #fff ;
-  background: #e43f5a;
+  color: #111;
+  background: #fff;
 }
 .menu-btn {
   color: #fff;
@@ -100,14 +100,14 @@ section {
   border-right: 4px solid #e43f5a;
   animation: typing 3s steps(12) infinite;
 }
-@keyframes typing{
-  0%{
+@keyframes typing {
+  0% {
     width: 0ch;
   }
-  50%{
+  50% {
     width: 9ch;
   }
-  100%{
+  100% {
     width: 0ch;
   }
 }
@@ -117,11 +117,11 @@ section {
   color: rgb(224, 224, 224);
   margin-top: 8px;
 }
-.home .home-content .scroll{
+.home .home-content .scroll {
   width: 50%;
 }
 
-.home .home-content a span{
+.home .home-content a span {
   position: absolute;
   top: 70%;
   left: 50%;
@@ -132,7 +132,7 @@ section {
   border-radius: 100%;
   box-sizing: border-box;
 }
-.home .home-content a span::after{
+.home .home-content a span::after {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -209,7 +209,7 @@ section {
 }
 /* video style end */
 
-/* team  */
+/* team style start */
 .team {
   font-size: 100%;
   background: #f2f2f2;
@@ -281,7 +281,6 @@ section {
   background: hsl(0, 0%, 100%);
   animation: feadIn 0.6s ease-in-out;
 }
-
 .btn-more {
   display: inline-block;
   background-color: #e43f5a;
@@ -306,6 +305,7 @@ section {
     opacity: 1;
   }
 }
+/* video style end */
 
 /* footer */
 .footer {
@@ -424,7 +424,7 @@ section {
   .home .home-content .judul-1 {
     font-size: 45px;
   }
-  .home .home-content .judul-1 .typing{
+  .home .home-content .judul-1 .typing {
     font-size: 45px;
   }
   .home .home-content .isi p {
@@ -456,11 +456,6 @@ section {
     flex: 100%;
   }
 }
-@media (max-width: 767px) {
-  .tab-container {
-    width: 90%;
-  }
-}
 @media (max-width: 690px) {
   .max-width {
     padding: 0 23px;
@@ -468,11 +463,14 @@ section {
   .home .home-content .judul-1 {
     font-size: 36px;
   }
-  .home .home-content .judul-1 .typing{
+  .home .home-content .judul-1 .typing {
     font-size: 36px;
   }
   .home .home-content .isi p {
     font-size: 14px;
+  }
+  .tab-container {
+    width: 90%;
   }
 }
 /* Media query end */
