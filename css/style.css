@@ -123,22 +123,36 @@ section {
   color: rgb(224, 224, 224);
   margin-top: 8px;
 }
+.home .home-content .scroll{
+  width: 50%;
+}
 
-.home .home-content .scroll a p {
+.home .home-content a span{
   position: absolute;
-  top: 0;
+  top: 70%;
   left: 50%;
-  width: 24px;
-  height: 24px;
-  margin-left: -12px;
-  border-left: 1px solid #fff;
-  border-bottom: 1px solid #fff;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  -webkit-animation: sdb05 1.5s infinite;
-  animation: sdb05 1.5s infinite;
+  width: 46px;
+  height: 46px;
+  margin-left: -23px;
+  border: 1px solid #111;
+  border-radius: 100%;
   box-sizing: border-box;
 }
+.home .home-content a span::after{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: '';
+  width: 16px;
+  height: 16px;
+  margin: -12px 0 0 -8px;
+  border-left: 1px solid #111;
+  border-bottom: 1px solid #111;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+
 .home .home-content a:hover {
   color: #3ab0ff;
   background: none;
@@ -228,7 +242,7 @@ section {
   font-weight: 500;
 }
 .filter-btn.active {
-  background: hsl(201.43, 13.21%, 58.43%);
+  background: #e43f5a;
   color: hsl(0, 0%, 100%);
 }
 .tab-filter-item-container {
@@ -259,6 +273,7 @@ section {
 .tab-img {
   margin: 20px 0;
   width: 28rem;
+  border-radius: 6px;
 }
 .tab-heading {
   padding: 2rem 0;
@@ -270,13 +285,21 @@ section {
   background: hsl(0, 0%, 100%);
   animation: feadIn 0.6s ease-in-out;
 }
-.btn-primary {
-  margin-top: 1.5rem;
+.btn-more{
   display: inline-block;
-  background: hsl(201.43, 13.21%, 58.43%);
-  padding: 0.6rem 2rem;
-  border-radius: 2rem;
-  color: hsl(0, 0%, 100%);
+  background-color: #e43f5a;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 30px;
+  font-weight: 500;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid#e43f5a;
+  transition: all 0.3s ease;
+}
+.btn-more:hover{
+  color: #1b1b1b;
+  background: none;
 }
 @keyframes feadIn {
   0% {
@@ -385,7 +408,6 @@ section {
 }
 @media (max-width: 690px) {
   .max-width {
-    
     padding: 0 23px;
   }
   .home .home-content .judul-1 {
