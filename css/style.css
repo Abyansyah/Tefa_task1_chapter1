@@ -209,7 +209,7 @@ section {
 }
 /* video style end */
 
-/* team style start */
+/* team  */
 .team {
   font-size: 100%;
   background: #f2f2f2;
@@ -237,7 +237,7 @@ section {
   font-weight: 500;
 }
 .filter-btn.active {
-  background: hsl(201.43, 13.21%, 58.43%);
+  background: #e43f5a;
   color: hsl(0, 0%, 100%);
 }
 .tab-filter-item-container {
@@ -267,7 +267,8 @@ section {
 }
 .tab-img {
   margin: 20px 0;
-  width: 20 rem;
+  width: 20rem;
+  border-radius: 6px;
 }
 .tab-heading {
   padding: 2rem 0;
@@ -279,13 +280,21 @@ section {
   background: hsl(0, 0%, 100%);
   animation: feadIn 0.6s ease-in-out;
 }
-.btn-primary {
-  margin-top: 1.5rem;
+.btn-more{
   display: inline-block;
-  background: hsl(201.43, 13.21%, 58.43%);
-  padding: 0.6rem 2rem;
-  border-radius: 2rem;
-  color: hsl(0, 0%, 100%);
+  background-color: #e43f5a;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 30px;
+  font-weight: 500;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid#e43f5a;
+  transition: all 0.3s ease;
+}
+.btn-more:hover{
+  color: #1b1b1b;
+  background: none;
 }
 @keyframes feadIn {
   0% {
@@ -295,9 +304,8 @@ section {
     opacity: 1;
   }
 }
-/* video style end */
 
-/* footer style start */
+/* footer */
 .footer{
   display: flex;
   padding: 20px 0;
@@ -305,7 +313,6 @@ section {
 .footer .row{
   font-size: 20px;
 }
-/* video style end */
 
 /* Media query start */
 @media (max-width: 1300px) {
@@ -328,6 +335,7 @@ section {
     display: block;
     z-index: 999;
   }
+
   .menu-btn i.active:before {
     content: '\f00d';
   }
