@@ -11,7 +11,7 @@ $(document).ready(function () {
       $('.navbar img.hitam').hide();
       $('.navbar img.putih').show();
     }
-  });
+  }); 
 
   $('.menu-btn').click(function () {
     $('.navbar .menu').toggleClass('active');
