@@ -505,6 +505,10 @@ section {
   .video .video-content .left video {
     width: 350px;
   }
+  .maps .maps-content .right iframe {
+    width: 350px;
+    height: 350px;
+  }
 }
 @media (max-width: 991px) {
   .max-width {
@@ -579,6 +583,23 @@ section {
   }
   .tab-content-right {
     flex: 100%;
+  }
+  .maps .maps-content .column {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+  .maps .maps-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .maps .maps-content .right .slideshow-container {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .maps .maps-content .right .prev,
+  .maps .maps-content .right .next {
+    display: none;
   }
 }
 @media (max-width: 690px) {
