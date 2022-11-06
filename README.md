@@ -12,7 +12,7 @@
 - CSS
 - JS
 
-## Our Temas
+## Our Teams
 
 - Ahmad @Abyansyah 
 - Arum @arumm8
