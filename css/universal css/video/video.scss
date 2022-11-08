@@ -1,0 +1,68 @@
+$myColor1: #fff;
+$myColor2: #111;
+$myColor3: #e43f5a;
+$myColor4: #1b1b1b;
+
+.video {
+    background-color: $myColor1;
+
+    .video-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+
+    .video {
+        position: relative;
+        text-align: center;
+        font-size: 37px;
+        font-weight: 700;
+        margin-bottom: 60px;
+        padding-top: 20px;
+    }
+
+    .video-content {
+        .left {
+            width: 55%;
+
+            video {
+                width: 450px;
+                border-radius: 6px;
+            }
+        }
+        .right {
+            width: 45%;
+
+            .text {
+                font-size: 55px;
+                font-weight: 600;
+                color: $myColor2;
+                margin-bottom: 15px;
+            }
+
+            p {
+                color: $myColor2;
+            }
+
+            a {
+                display: inline-block;
+                background-color: $myColor3;
+                color: $myColor1;
+                font-size: 16px;
+                padding: 10px 30px;
+                font-weight: 500;
+                margin-top: 20px;
+                border-radius: 6px;
+                border: 2px solid $myColor3;
+                transition: all 0.3s ease;
+            }
+        }
+    }
+}
+
+.video .video-content .right a:hover {
+    color: $myColor4;
+    background: none;
+  }
