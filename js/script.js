@@ -11,17 +11,15 @@ $(document).ready(function () {
       $('.navbar img.hitam').hide();
       $('.navbar img.putih').show();
     }
-  });
+  }); 
 
   $('.menu-btn').click(function () {
     $('.navbar .menu').toggleClass('active');
     $('.menu-btn i').toggleClass('active');
   });
-  $(function() {
-    $('a[href*=#]').on('click', function(e) {
-      e.preventDefault();
-      $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
-    });
+  $(".navbar .menu li a").click(function() {  
+    $(".navbar .menu li a").removeClass("active"); 
+    $(this).addClass("active"); 
   });
   
 });
