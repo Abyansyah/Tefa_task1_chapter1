@@ -1,0 +1,119 @@
+$font_size1 : 20px;
+$font_size2 : 15px;
+$font_color1 : #fff;
+$font_color2 : #111;
+$back_color : #e43f5a;
+$back_color2 : #bbb;
+
+.maps .title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.maps .maps-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    .column {
+        width: calc(50% - 30px);
+    }
+
+    .left {
+        .text {
+            font-size: $font_size1;
+            font-weight: 600;
+            margin-bottom: 2px;
+    }
+    p {
+        text-align: justify;
+        margin-bottom: 10px;
+    }
+    a {
+        display: inline-block;
+        background: $back_color;
+        color: $font_color1;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 8px 16px;
+        margin-top: 20px;
+        border-radius: 6px;
+        border: 2px solid $back_color;
+        transition: all 0.3s ease;
+
+        :hover {
+            color: $back_color;
+            background: none;
+        }
+    }
+}
+
+.slideshow-container {
+    max-width: 89%;
+    position: relative;
+    margin: auto;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .imgslide {
+        display: none;
+    }
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.slide .text {
+    color: $font_color2;
+    font-size: $font_size2;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: $font_color1;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: $back_color2;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+
+    .active {
+        background-color: $back_color;
+
+    }
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+
+    iframe {
+        width: 450px;
+        height: 400px;
+        border-radius: 6px;
+    }
+}
+}

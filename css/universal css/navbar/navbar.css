@@ -6,7 +6,7 @@
   transition: transparent;
   background: transparent;
 }
-.navbar .sticky {
+.navbar.sticky {
   padding: 15px 0;
   background: #1b1b1b;
   box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08);
@@ -37,7 +37,7 @@
   letter-spacing: 1px;
   transition: all 0.3s ease;
 }
-.navbar .menu li a .active {
+.navbar .menu li a.active {
   color: #fff;
   background: #e43f5a;
 }

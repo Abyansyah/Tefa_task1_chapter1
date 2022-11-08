@@ -28,7 +28,7 @@
   gap: 0.5rem;
   font-weight: 500;
 }
-.filter-btn .active {
+.filter-btn.active {
   background: #e43f5a;
   color: hsl(0deg, 0%, 100%);
 }
@@ -75,8 +75,7 @@
   transform: translateY(0);
   transition: transform 0.5s ease-in-out;
   background: hsl(0deg, 0%, 100%);
-  -webkit-animation: feadIn 0.6s ease-in-out;
-          animation: feadIn 0.6s ease-in-out;
+  animation: feadIn 0.6s ease-in-out;
 }
 
 .btn-more {
@@ -97,15 +96,6 @@
   background: none;
 }
 
-@-webkit-keyframes feadIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 @keyframes feadIn {
   0% {
     opacity: 0;
@@ -113,4 +103,4 @@
   100% {
     opacity: 1;
   }
-}/*# sourceMappingURL=team.css.map */
+} /*# sourceMappingURL=team.css.map */

@@ -1,0 +1,182 @@
+$frame_width: 350px;
+$back_color1: #111;
+$font_size1: 45px;
+$font_size2: 32px;
+$font_size3: 14px;
+$font_size4: 36px;
+$width_img: 19rem;
+
+@media (max-width: 1300px) {
+  .home .max-width {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 1104px) {
+  .video .video-content .left video {
+    width: $frame_width;
+  }
+  .maps .maps-content .right iframe {
+    width: $frame_width;
+    height: 350px;
+  }
+}
+@media (max-width: 991px) {
+  .max-width {
+    padding: 0 50px;
+  }
+}
+@media (max-width: 947px) {
+  .menu-btn {
+    display: block;
+    z-index: 999;
+  }
+
+  .menu-btn i.active:before {
+    content: '\f00d';
+  }
+  .navbar .menu {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    background: $back_color1;
+    text-align: center;
+    padding-top: 80px;
+    transition: all 0.3s ease;
+
+    .active {
+      left: 0;
+    }
+
+    li {
+      display: block;
+
+      a {
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+      }
+    }
+  }
+
+  .home .home-content {
+    .judul-1 {
+      font-size: $font_size1;
+
+      .typing {
+        font-size: $font_size1;
+      }
+    }
+
+    .isi p {
+      font-size: $font_size3;
+    }
+
+    a {
+      font-size: $font_size3;
+    }
+  }
+
+  .max-width {
+    max-width: 800px;
+  }
+
+  .video .video-content {
+    .left {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto 40px;
+    }
+
+    .right {
+      flex: 100%;
+
+      .text {
+        font-size: $font_size2;
+      }
+    }
+  }
+  .tab-content-left {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 40px;
+
+    img {
+      border-radius: 6px;
+      padding: 0 20px;
+    }
+  }
+
+  .tab-content-right {
+    flex: 100%;
+  }
+
+  .maps .maps-content {
+    display: flex;
+    flex-direction: column;
+
+    .column {
+      width: 100%;
+      margin-bottom: 45px;
+    }
+
+    .right {
+      .slideshow-container {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+
+      .prev,
+      .next {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 690px) {
+  .max-width {
+    padding: 0 23px;
+  }
+  .home .home-content {
+    .judul-1 {
+      font-size: $font_size4;
+
+      .typing {
+        font-size: $font_size4;
+      }
+    }
+
+    .isi p {
+      font-size: $font_size3;
+    }
+  }
+  .tab-img{
+    width: $width_img;
+  }
+
+  .tab-container {
+    width: 90%;
+  }
+  .project_wrap .project {
+    width: 95%;
+    .container .footer {
+      justify-content: space-between;
+  
+      .btn_wrap {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+      button {
+        width: 50%;
+        .cancel_btn {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
