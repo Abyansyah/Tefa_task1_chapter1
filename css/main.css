@@ -121,7 +121,7 @@ section {
   border-radius: 100%;
   box-sizing: border-box;
 }
-.home .home-content a span::after {
+.home .home-content a span ::after {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -134,7 +134,7 @@ section {
   transform: rotate(-45deg);
   box-sizing: border-box;
 }
-.home .home-content a span:hover {
+.home .home-content a span :hover {
   color: #3ab0ff;
   background: none;
 }
@@ -205,7 +205,7 @@ section {
   border: 2px solid #e43f5a;
   transition: all 0.3s ease;
 }
-.video .video-content .right a:hover {
+.video .video-content .right a :hover {
   color: #1b1b1b;
   background: none;
 }
@@ -313,7 +313,7 @@ section {
   border: 2px solid #e43f5a;
   transition: all 0.3s ease;
 }
-.btn-more:hover {
+.btn-more :hover {
   color: #1b1b1b;
   background: none;
 }
@@ -430,7 +430,7 @@ section {
   border-radius: 3px;
   width: 100%;
 }
-.project_wrap .project .input-text:focus {
+.project_wrap .project .input-text :focus {
   border-color: #4b6fff;
 }
 .project_wrap .project .project_type {
@@ -512,7 +512,7 @@ section {
   border: 2px solid crimson;
   transition: all 0.3s ease;
 }
-.maps .maps-content .left a:hover {
+.maps .maps-content .left a :hover {
   color: crimson;
   background: none;
 }
@@ -623,7 +623,7 @@ section {
   text-decoration: none;
   opacity: 0.8;
 }
-.footer-basic ul a:hover {
+.footer-basic ul a :hover {
   opacity: 1;
 }
 .footer-basic li {
@@ -646,7 +646,7 @@ section {
   color: inherit;
   opacity: 0.75;
 }
-.footer-basic .social > a:hover {
+.footer-basic .social > a :hover {
   opacity: 0.9;
 }
 .footer-basic .copyright {
