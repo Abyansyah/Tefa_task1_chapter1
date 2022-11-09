@@ -595,7 +595,7 @@ section {
     padding-top: 80px;
     transition: all 0.3s ease;
   }
-  .navbar .menu .active {
+  .navbar .menu.active {
     left: 0;
   }
   .navbar .menu li {
