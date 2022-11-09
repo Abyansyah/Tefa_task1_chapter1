@@ -1,0 +1,21 @@
+$myFont: 'Poppins', sans-serif;
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $myFont;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+  }
+  section {
+    padding: 80px 0;
+  }

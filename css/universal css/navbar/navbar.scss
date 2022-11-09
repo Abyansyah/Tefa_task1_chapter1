@@ -1,0 +1,66 @@
+$myColor1: #fff;
+$myColor2: #f2f2f2;
+$myColor3: #e43f5a;
+$box-shadow1: rgba(55, 66, 59, 0.08);
+
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 15px 0;
+    transition: transparent;
+    background: transparent;
+
+    .sticky{
+        padding: 15px 0;
+        background: #1b1b1b;
+        box-shadow: 0px 0 18px $box-shadow1;
+    }
+
+    .max-width {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo {
+        font-size: 35px;
+        font-weight: 600;
+
+        a {
+            color: $myColor1;
+        }
+    }
+
+    .menu {
+
+        li {
+            list-style: none;
+            display: inline-block;
+
+            a {
+                color: $myColor2;
+                font-size: 18px;
+                font-weight: 500;
+                padding: 8px 15px;
+                margin-left: 25px;
+                border-radius: 5px;
+                letter-spacing: 1px;
+                transition: all 0.3s ease;
+
+                .active {
+                    color: $myColor1;
+                    background: $myColor3;
+                }
+            }
+        }
+    }
+}
+.menu-btn {
+    color: $myColor1;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+
